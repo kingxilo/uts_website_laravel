@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-label="Logo Surya Nusantara Kopi">
+  <defs>
+    <linearGradient id="suryaGold" x1="18" y1="14" x2="102" y2="106" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="55%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#92400E"/>
+    </linearGradient>
+    <linearGradient id="espressoBg" x1="12" y1="12" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B2014"/>
+      <stop offset="100%" stop-color="#1E0F09"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer badge -->
+  <circle cx="60" cy="60" r="56" fill="url(#espressoBg)" stroke="url(#suryaGold)" stroke-width="3.5"/>
+  <circle cx="60" cy="60" r="49" stroke="#F59E0B" stroke-opacity="0.35" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+  <!-- Rising Sun Rays (Surya) -->
+  <g stroke="url(#suryaGold)" stroke-width="2.6" stroke-linecap="round">
+    <line x1="60" y1="18" x2="60" y2="27"/>
+    <line x1="39" y1="24" x2="43.5" y2="31.5"/>
+    <line x1="81" y1="24" x2="76.5" y2="31.5"/>
+    <line x1="25" y1="39" x2="32.5" y2="43.5"/>
+    <line x1="95" y1="39" x2="87.5" y2="43.5"/>
+  </g>
+
+  <!-- Sun Half-Disc -->
+  <path d="M36 58C36 44.745 46.745 34 60 34C73.255 34 84 44.745 84 58H36Z" fill="url(#suryaGold)"/>
+
+  <!-- Coffee Bean Emblem in Foreground -->
+  <ellipse cx="60" cy="70" rx="22" ry="27" transform="rotate(-18 60 70)" fill="#24120A" stroke="#FBBF24" stroke-width="2.8"/>
+  <path d="M51 48C59 56 54 66 60 72C66 78 61 86 69 92" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Subtle Horizon Accent -->
+  <path d="M24 62H36M84 62H96" stroke="#FDE68A" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round"/>
+</svg>

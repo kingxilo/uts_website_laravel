@@ -1,0 +1,49 @@
+# Logs
+*.log
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Environment files (jangan upload konfigurasi rahasia)
+.env
+.env.*
+!.env.example
+.env.backup
+.env.production
+
+# PHP / Laravel
+/vendor
+/auth.json
+.phpactor.json
+.phpunit.result.cache
+.phpunit.cache
+Homestead.json
+Homestead.yaml
+
+# Laravel cache and temporary files
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+/storage/*.key
+/storage/pail
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# Frontend dependencies and build
+/node_modules
+/public/build
+/public/hot
+/public/storage
+
+# IDE and editors
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
